@@ -1,0 +1,4 @@
+{{ $password }}
+
+{{ $username }}
+{{ $email }}

@@ -1,0 +1,38 @@
+<html>
+<head><title>status</title></head>
+<body>
+$(if chap-id)
+<noscript>
+<center><b>JavaScript required. Enable JavaScript to continue.</b></center>
+</noscript>
+$(endif)
+<center>If you are not redirected in a few seconds, click 'continue' below<br>
+<form name="redirect" action="http://10.10.1.3/hotspot-manager/public/landing/status" method="post">
+<input type="hidden" name="mac" value="$(mac)">
+<input type="hidden" name="ip" value="$(ip)">
+<input type="hidden" name="username" value="$(username)">
+<input type="hidden" name="link-login" value="$(link-login)">
+<input type="hidden" name="link-orig" value="$(link-orig)">
+<input type="hidden" name="error" value="$(error)">
+<input type="hidden" name="trial" value="$(trial)">
+<input type="hidden" name="loginby" value="$(loginby)">
+<input type="hidden" name="chap-id" value="$(chap-id)">
+<input type="hidden" name="chap-challenge" value="$(chap-challenge)">
+<input type="hidden" name="link-login-only" value="$(link-login-only)">
+<input type="hidden" name="link-orig-esc" value="$(link-orig-esc)">
+<input type="hidden" name="mac-esc" value="$(mac-esc)">
+
+<input type="hidden" name="identity" value="$(identity)">
+<input type="hidden" name="bytes-in-nice" value="$(bytes-in-nice)">
+<input type="hidden" name="bytes-out-nice" value="$(bytes-out-nice)">
+<input type="hidden" name="session-time-left" value="$(session-time-left)">
+<input type="hidden" name="uptime" value="$(uptime)">
+<input type="hidden" name="refresh-timeout" value="$(refresh-timeout)">
+<input type="hidden" name="link-status" value="$(link-status)">
+<input type="submit" value="continue">
+</form>
+<script language="JavaScript">
+   document.redirect.submit();
+</script></center>
+</body>
+</html>

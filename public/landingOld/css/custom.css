@@ -1,0 +1,116 @@
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -62px;
+    padding: 0 0 62px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 62px;
+    background-color: #191919;
+    border-color: #080808;
+}
+
+#footer .text-muted {
+    color: #fff;
+}
+
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer .fright {
+    text-align: right;
+}
+
+code {
+    font-size: 80%;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #351400 0px, #200900 100%);
+    border-color: #000;
+}
+
+.navbar > .container .navbar-brand{
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #63300B;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #380808;
+}
+
+#ag-login, .btn-o {
+  display: none;
+}
+
+#footer .portfolio-filter {
+    margin-left:-30px ;
+}
+
+.panel-body {
+    border: 1px solid #D1D1D1;
+}
+
+
+#services {
+  background-size: cover;
+}
+
+#services .lead,
+#services h2{
+  color: #fff;
+}
+
+.services-wrap {
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 40px;
+  border : 1px solid #aaa;
+  opacity: 0.5 ;
+}
+
+#services .col-md-12 {
+  margin: 20px 0;
+}
+
+.services-wrap h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.services-wrap .pull-left {
+  margin-right: 20px;
+}
